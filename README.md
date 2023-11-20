@@ -1,7 +1,6 @@
 ## 0x1B. C - Sorting algorithms & Big O
-## Learnt
-- Different sorting algorithms
-  - Bubble Sort: This repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+## Learnt Different sorting algorithms:
+  / Bubble Sort: This repeateds steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
   - Selection Sort: It sorts an array by repeatedly finding the minimum element from the unsorted part and putting it at the beginning
   - Insertion Sort: It builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms.
   - Quick Sort: It is a divide-and-conquer algorithm that works by selecting a pivot element and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot.
