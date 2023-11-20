@@ -8,13 +8,14 @@
 void selection_sort(int *array, size_t size)
 {
 	size_t x, y, min;
+	/*int swap;*/
 
 	for (x = 0; x < size - 1; x++)
 	{
 		min = x;
 		for (y = x + 1; y < size; y++)
 		{
-			if (array[y] < array[x])
+			if (array[y] < array[min])
 				min = y;
 		}
 		swap(&array[x], &array[min]);
