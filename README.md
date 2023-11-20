@@ -1,5 +1,5 @@
 ## 0x1B. C - Sorting algorithms & Big O
-#Learnt
+## Learnt
 - Different sorting algorithms
   - Bubble Sort: This repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
   - Selection Sort: It sorts an array by repeatedly finding the minimum element from the unsorted part and putting it at the beginning
