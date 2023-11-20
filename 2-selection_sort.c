@@ -27,20 +27,5 @@ void selection_sort(int *array, size_t size)
 			array[min] = temp;
 			print_array(array, size);
 		}
-		/*swap(&array[x], &array[min]);
-		print_array(array, size);*/
 	}
 }
-/**
- * swap - Function to swap two integere
- * @xp: pointer to the first integer
- * @yp: Pointer to the second integer
- *//*
-void swap(int *xp, int *yp)
-{
-	int temp;
-
-	temp = *xp;
-	*xp = *yp;
-	*yp = temp;
-}*/
