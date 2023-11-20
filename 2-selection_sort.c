@@ -10,6 +10,8 @@ void selection_sort(int *array, size_t size)
 	size_t x, y, min;
 	/*int swap;*/
 
+	if (array == NULL || size < 2)
+		return;
 	for (x = 0; x < size - 1; x++)
 	{
 		min = x;
